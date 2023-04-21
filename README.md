@@ -3,7 +3,7 @@ A collection of useful one liners that I have collected over time to help in ext
 
 ## Extract usernames or email addresses from any/most files. Mostly used against .txt, html, json files.
 
-## Syntaxt: grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" filename.json | uniq
+## Syntaxt: ```grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" filename.json | uniq```
 
 ### Example of data within file we want to extract usernames from.
 ```
