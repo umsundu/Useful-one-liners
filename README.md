@@ -5,7 +5,7 @@ A collection of useful one liners that I have collected over time to help in ext
 
 ## Syntaxt: grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" filename.json | uniq
 
-### Example of data within file we want to extract username from.
+### Example of data within file we want to extract usernames from.
 ```
 cat users.json
 {
