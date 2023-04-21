@@ -1,11 +1,11 @@
 # Useful-one-liners
 A collection of useful one liners that I have collected over time to help in extracting data, formatting data etc. 
 
-## Extract usernames or email addresses from any/most files. Mostly used against .txt, html, json files.
+## Extract email addresses from any/most files. Mostly used against .txt, html, json files.
 
 ## Syntax: ```grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" filename.json | uniq```
 
-### Example of data within file we want to extract usernames from.
+### Example of data within file we want to extract.
 ```
 cat users.json
 {
@@ -63,7 +63,7 @@ cat users.json
         "dontreqpreauth": false
       },
 ```
-### Example of running query against the file to extract usernames.  
+### Example of running query against the file to extract email addresses.  
 ```
 grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" users.json | uniq
 bob-324KL@umsundu.com
