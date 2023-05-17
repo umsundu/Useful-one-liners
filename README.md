@@ -86,7 +86,7 @@ C:\Program Files\KeePass Password Safe 2\XSL
 C:\Program Files\btest we\boom\boom.exe
 "C:\Program Files\yes\all good\good.exe"
 ```
-### Running grep witht he regex to extract only the paths that are unquoted and contain a space.
+### Running grep with the regex to extract only the paths that are unquoted and contain a space.
 ```
 grep -oP '^[^"]*\s[^"]*$' test.txt
 C:\Users\Public\Old Libraries\here.exe
