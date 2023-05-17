@@ -76,7 +76,7 @@ sue-322JL@umsundu.com
 ## Syntax: ```grep -oP '^[^"]*\s[^"]*$' filename.txt```
 
 ### Example of sample file containing quoted paths with a space and unquoted paths with a space. 
-### We want to extract only the unquoted paths that contain a space.
+### We want to extract only the unquoted paths that contain a space from the below list.
 ```
 "C:\Users\Public\Old Desktop\tool.exe"
 C:\Users\Public\Old Libraries\here.exe
