@@ -1,5 +1,5 @@
 # Useful-one-liners
-A collection of useful one liners that I have collected over time to help in extracting data, formatting data etc. 
+A collection of useful one liners that I have collected over time to help in extracting data, formatting data etc. Still a work in progress!
 
 ## Extract email addresses from any/most files. Mostly used against .txt, html, json files.
 ## Extract unquoted paths that contain a space.
